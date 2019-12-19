@@ -1,0 +1,13 @@
+name: 2fa
+version: @version@
+main: com.funniray.twofa.Twofa
+api-version: 1.13
+authors: [Funniray]
+description: 2 Factor Authentication
+website: https://funniray.com/
+
+commands:
+  /authenticate:
+    description: "Authenticates a 2fa code"
+  /createKey:
+    description: "Creates your 2fa code"
